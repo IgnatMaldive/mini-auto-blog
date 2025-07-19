@@ -1,0 +1,18 @@
+title: "My Academic Blog"
+description: "A blog using the AcademicPages Jekyll theme"
+url: "" # Set this to your GitHub Pages URL if deploying
+baseurl: "" # Set this if your site is in a subdirectory
+
+# AcademicPages theme
+remote_theme: academicpages/academicpages.github.io
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author info
+author:
+  name: "Your Name"
+  email: "your@email.com"
